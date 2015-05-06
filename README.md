@@ -18,7 +18,7 @@ Once Laravel DevStatus is installed, you need to register the service provider. 
 
 * `'Busayo\DevStatus\DevStatusServiceProvider'`
 
-#### Looking for a laravel 4 compatable version?
+#### Looking for a laravel 4 compatible version?
 
 Chill it's undergoing development :smiley_cat:
 
