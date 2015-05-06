@@ -1,0 +1,13 @@
+{
+    "name": "busayo/Laravel-DevStatus",
+    "description": "Displays your Developer Evangelist Status based on Github's Repo",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "busayo",
+            "email": "prosperotemuyiwa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
