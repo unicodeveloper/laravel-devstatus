@@ -20,7 +20,7 @@ Once Laravel DevStatus is installed, you need to register the service provider. 
 
 #### Looking for a laravel 4 compatible version?
 
-Chill it's undergoing development :smiley_cat:
+Chill, it's undergoing development :smiley_cat:
 
 
 ## Configuration
