@@ -23,11 +23,12 @@ class DevStatusController extends Controller {
   public function index($username)
   {
 
-    $options      = array('http' => array('user_agent'=> config('DevStatus.user-agent')));
+    $user_agent   = config('DevStatus.user-agent') ?: $_SERVER['HTTP_USER_AGENT'];
+    $options      = array('http' => array('user_agent'=> $user_agent));
     $context      = stream_context_create($options);
     $url          = config('DevStatus.url') . "/users/" . urlencode($username);
     $result       = json_decode(file_get_contents($url, true, $context));
-    $name         = $result->name;
+    $name         = isset($result->name) ? $result->name : $username;
     $public_repos = $result->public_repos;
     $status       = "";
 
