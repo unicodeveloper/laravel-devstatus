@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('devstatus', 'Busayo\DevStatus\DevStatusController@home');
-Route::get('devstatus/{username}', 'Busayo\DevStatus\DevStatusController@index');
+Route::get('devstatus', 'Unicodeveloper\DevStatus\DevStatusController@home');
+Route::get('devstatus/{username}', 'Unicodeveloper\DevStatus\DevStatusController@index');
 
 Route::get('/test', function(){
     echo Test::doIt();

@@ -1,4 +1,6 @@
-<?php namespace Busayo\DevStatus;
+<?php
+
+namespace Unicodeveloper\DevStatus;
 
 use Illuminate\Support\ServiceProvider;
 

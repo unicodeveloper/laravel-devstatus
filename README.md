@@ -9,14 +9,14 @@
 To get the latest version of Laravel DevStatus, simply add the following line to the require block of your `composer.json` file.
 
 ```
-"busayo/laravel-devstatus": "dev-master"
+"unicodeveloper/laravel-devstatus": "dev-master"
 ```
 
 You'll then need to run `composer install` or `composer update` to download it and have the autoloader updated.
 
 Once Laravel DevStatus is installed, you need to register the service provider. Open up `config/app.php` and add the following to the `providers` key.
 
-* `'Busayo\DevStatus\DevStatusServiceProvider'`
+* `'Unicodeveloper\DevStatus\DevStatusServiceProvider'`
 
 #### Looking for a laravel 4 compatible version?
 
