@@ -2,8 +2,8 @@
 
 namespace Unicodeveloper\DevStatus;
 
-use App\Http\Controllers\Controller;
 use App\User;
+use App\Http\Controllers\Controller;
 
 class DevStatusController extends Controller {
 
