@@ -37,11 +37,9 @@ class DevStatusController extends Controller {
 
     if($public_repos <= 10){
        $status = "Rookie";
-    }
-    if( $public_repos > 10 && $public_repos <= 25){
+    } elseif ( $public_repos > 10 && $public_repos <= 25) {
        $status = "Intermediate";
-    }
-    if( $public_repos > 25){
+    } elseif ( $public_repos > 25) {
        $status = "Ninja";
     }
 
